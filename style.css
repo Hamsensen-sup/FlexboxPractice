@@ -46,3 +46,12 @@ html, body{
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 450px){
+    .body{
+        display: block;
+    }
+    .left, .center{
+        margin-bottom: 10px;
+    }
+}
