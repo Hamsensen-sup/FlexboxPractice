@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+html, body{
+    height: 100%;
+}
+.body{
+    display: flex;
+    gap: 1rem;
+    margin: 10px;
+    height: 100%;
+}
+.left{
+    background-color: mediumseagreen;
+    padding: 1rem;
+    height: 100%;
+}
+.right{
+    background-color: lightseagreen;
+    padding: 1rem;
+    height: 100%;
+}
+.center{
+    background-color: darkcyan;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+}
+.header{
+    background-color: rgb(34, 98, 66);
+    color: white;
+    padding: 1rem;
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(34, 98, 66);
+    color: white;
+    padding: 1rem;
+    margin: 10px;
+}
