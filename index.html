@@ -55,6 +55,18 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis et ullam maiores dolores nihil, fugiat voluptas quod? Inventore voluptate natus quibusdam deserunt placeat quisquam, delectus sapiente doloribus non! Tempora, ducimus?
                 </p>
             </div>
+            <div class="accordion">
+                <div class="accordion-title">Accordion 1</div>
+                <div class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni, corrupti, saepe nulla culpa error beatae optio delectus fuga ullam minus magnam eum. Quibusdam accusamus possimus repudiandae aliquid doloribus totam.</div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">Accordion 2</div>
+                <div class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni, corrupti, saepe nulla culpa error beatae optio delectus fuga ullam minus magnam eum. Quibusdam accusamus possimus repudiandae aliquid doloribus totam.</div>
+            </div>
+            <div class="accordion">
+                <div class="accordion-title">Accordion 3</div>
+                <div class="accordion-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et magni, corrupti, saepe nulla culpa error beatae optio delectus fuga ullam minus magnam eum. Quibusdam accusamus possimus repudiandae aliquid doloribus totam.</div>
+            </div>
             
         </div>
         <div class="right">
@@ -67,6 +79,15 @@
     <div class="footer">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minima quaerat necessitatibus veritatis doloremque? Iusto omnis tenetur, commodi inventore temporibus id ipsa perferendis sed, magnam fuga perspiciatis. Odit, quaerat officia.</p>
     </div>
+    <script>
+        const accordion = document.querySelectorAll(".accordion")
+
+        for (let i = 0; i < accordion.length; i++){
+            accordion[i].addEventListener("click", function(){
+                this.classList.toggle("active")
+            })
+        }
+    </script>
 
 </body>
 </html>
